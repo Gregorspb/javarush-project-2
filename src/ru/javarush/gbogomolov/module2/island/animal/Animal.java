@@ -4,6 +4,11 @@ import ru.javarush.gbogomolov.module2.island.BasicItem;
 
 public abstract class Animal extends BasicItem {
 
+    private int countFoodMax;
+    private int satiety;
+    private int lossSatiety;
+
+
     public void eat(){
     }
 
